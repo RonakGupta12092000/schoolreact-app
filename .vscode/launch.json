@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Launch Chrome against localhost",
+        "url": "http://localhost:5173",  // The URL where your app is running
+        "webRoot": "${workspaceFolder}",  // Points to the root of your project
+        "preLaunchTask": "npm: dev"   // Runs the development server
+      }
+    ]
+  }
+  
